@@ -35,3 +35,4 @@ def create_item(name: str, price: float):
 def delete_item(item_id: int):
     return {"message": f"item {item_id} deleted"}
 
+
