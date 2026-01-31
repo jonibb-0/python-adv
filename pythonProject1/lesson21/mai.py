@@ -32,6 +32,7 @@ def create_item(name: str, price: float):
     return {"item_name": name, "item_price": price}
 
 @app.delete("/items/{item_id")
+
 def delete_item(item_id: int):
     return {"message": f"item {item_id} deleted"}
 
