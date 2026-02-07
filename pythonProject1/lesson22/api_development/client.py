@@ -1,0 +1,10 @@
+import request
+
+api_url = "http://127.0.0.1:800/create_person"
+
+person_date = {"name", "John Doe", "age": 30}
+
+response = requests.post(api_url, json=person_date)
+
+print("Response Code:", response.status_code)
+print("Response JSON:", response.json())
